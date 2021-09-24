@@ -7,7 +7,6 @@ function Subtitle (){
         <div className="subtitle" styles={subtitle}>
             Subtítulo da Notícia
         </div>
-
     )
 };
 
