@@ -1,15 +1,10 @@
 import heading from '../../styles/core-components/heading';
 import PropTypes from 'prop-types';
-
 function Heading (){
     return(
-        <div className="heading" styles={heading}>
-          Título da Notícia
-        </div>
+        <div className="card-content" style={heading}></div>
     )
 };
-
-export default Heading;
 Heading.propTypes ={
     fontSize: PropTypes.string,
     lineHeight: PropTypes.string,
@@ -18,3 +13,5 @@ Heading.propTypes ={
     color: PropTypes.string,
     marginBottom: PropTypes.string,
 }
+
+export default Heading;

@@ -2,11 +2,8 @@ import button from '../../styles/core-components/button';
 import PropTypes from 'prop-types';
 
 function Button (){
-
     return(
-        <button className="button-default" styles={button}>
-            Quero ler!
-        </button>
+        <button className="button-default" style={button}></button>
     )
 };
 
@@ -19,6 +16,7 @@ Button.propType ={
     fontWeight: PropTypes.number,
     color: PropTypes.string,
     backgroundColor: PropTypes.string,
+    label: PropTypes.string,
     backgroundHover: PropTypes.string
 }
 

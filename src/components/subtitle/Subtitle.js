@@ -2,11 +2,8 @@ import subtitle from '../../styles/core-components/subtitle';
 import PropTypes from 'prop-types';
 
 function Subtitle (){
-
     return(
-        <div className="subtitle" styles={subtitle}>
-            Subtítulo da Notícia
-        </div>
+        <div className="subtitle" style={subtitle}></div>
     )
 };
 

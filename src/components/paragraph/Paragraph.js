@@ -1,13 +1,8 @@
 import paragraph from '../../styles/core-components/paragraph';
 import PropTypes from 'prop-types';
-
 function Paragraph () {
-
     return(
-        <div className="paragraph" styles={paragraph}>
-            Notícia
-        </div>
-
+        <div className="card-content" style={paragraph}></div>
     )
 };
 

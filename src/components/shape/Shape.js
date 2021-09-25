@@ -2,7 +2,7 @@ import shape from '../../styles/core-components/shape';
 import PropTypes from 'prop-types';
 function Shape (){
     return(
-        <div className="card-shape" styles={shape}> </div>
+        <div className="card-shape" style={shape}> </div>
     )
 };
 
@@ -13,6 +13,4 @@ Shape.propTypes={
     borderColor: PropTypes.string,
     backgroundColor: PropTypes.string
 }
-
-
 export default Shape;
