@@ -31,7 +31,7 @@ export default function CardContent() {
                         <div  style={heading}>{item.title}</div>
                         <div  style={subtitle}>{item.author}</div>
                         <div  style={paragraph}>{item.description}</div>
-                        <button style={button} label="Leia mais" />
+                        <button style={button}>Leia mais sobre </button>
                     </div> 
                 ))}
             </div>
