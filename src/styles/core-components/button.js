@@ -5,6 +5,7 @@ const button = {
     fontSize: globalTokens.fontSizeSm,
     lineHeight: globalTokens.lineHeightTight,
     borderRadius: globalTokens.borderRadiusNone,
+    border: globalTokens.borderWidthNone,
     padding: globalTokens.spacingSquishXs,
     fontFamily: globalTokens.fontFamilyHighlight,
     fontWeight: globalTokens.fontWeightMedium,

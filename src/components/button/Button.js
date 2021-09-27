@@ -11,6 +11,7 @@ Button.propType ={
     fontSize: PropTypes.string,
     lineHeight: PropTypes.string,
     borderRadius: PropTypes.string,
+    border: PropTypes.string,
     padding: PropTypes.string,
     fontFamily: PropTypes.string,
     fontWeight: PropTypes.number,
