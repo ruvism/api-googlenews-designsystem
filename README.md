@@ -2,13 +2,13 @@
 
 ### Objetivos
 
-- Estudo e aplicação do conceito de design system 
+- Estudo e aplicaÃ§Ã£o do conceito de design system 
 - Consumo da API do Google News
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto criado com [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Para rodar o projeto
 
 In the project directory, you can run:
 
